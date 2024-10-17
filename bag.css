@@ -358,3 +358,136 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/* responsive section */
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .logo_container {
+        margin-left: 2%;
+        margin-bottom: 10px;
+    }
+
+    .nav_bar {
+        display: none; /* You may want to hide the nav links for smaller screens or create a hamburger menu */
+    }
+
+    .search_bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .action_bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0;
+    }
+
+    .action_container {
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bag-items-container,
+    .bag-summary {
+        width: 100%;
+        padding: 10px;
+        border: none;
+    }
+
+    .bag-page {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_container {
+        padding: 20px;
+    }
+
+    .footer_column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .links img {
+        height: 30px;
+        margin: 0 5px;
+    }
+
+    .app-buttons {
+        flex-direction: column;
+    }
+
+    .app-button img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .guarantee, .return {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .search_input {
+        font-size: 14px;
+    }
+    
+    .bag-item-container {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .bag-summary, .bag-items-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-place-order {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .bag-item-img {
+        height: 100px;
+    }
+
+    .return-period, .delivery-details {
+        font-size: 12px;
+    }
+
+    .action_icon {
+        font-size: 20px;
+    }
+
+    .bag-item-count {
+        top: -30px;
+        left: 10px;
+    }
+}
+
