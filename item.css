@@ -318,4 +318,147 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/* responsive section */ 
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo_container {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav_bar {
+        flex-direction: column;
+        min-width: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav_bar a {
+        font-size: 12px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .search_bar {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .action_bar {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .action_container {
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .bag-item-count {
+        left: 5px;
+        top: -20px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .items-container {
+        width: 90%;
+        margin: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .item-image {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .btn-bag {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_container {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .footer_column {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_column a {
+        font-size: 12px;
+    }
+
+    .app-buttons {
+        flex-direction: column;
+    }
+
+    .app-button {
+        margin-bottom: 10px;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .links img {
+        margin: 0 10px;
+    }
+
+    .container {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .category_heading {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .foot p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+
 
