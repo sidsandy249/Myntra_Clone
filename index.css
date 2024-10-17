@@ -300,3 +300,104 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/* responsive section */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .myntra_home {
+        height: 30px;
+    }
+
+    .nav_bar {
+        flex-direction: column;
+        min-width: auto;
+    }
+
+    .nav_bar a {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .search_bar {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .action_bar {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .discount-button {
+        padding: 10px;
+        font-size: 12px;
+        right: 0;
+        top: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .category_items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sale_item, .shop_item {
+        width: 120px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .footer_column {
+        align-items: center;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .container {
+        width: auto;
+        text-align: center;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .category_heading {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+}
+
